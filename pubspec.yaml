@@ -1,4 +1,4 @@
-name: click_target_game
+name: click_the_target
 description: "A new Flutter project."
 publish_to: 'none'
 
@@ -14,7 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   audioplayers: ^6.8.1
   shared_preferences: ^2.5.3
-
+  flutter_launcher_icons: ^0.14.4
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -26,3 +26,9 @@ flutter:
 
   assets:
     - assets/sounds/
+    - assets/game_logo.jpg
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/game_logo.jpg"
